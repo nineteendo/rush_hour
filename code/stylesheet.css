@@ -1,1 +1,74 @@
-/* Schrijf hier je CSS */
+/* Colors based on the game 2048 */
+body {
+	margin: auto;
+	background-color: white;
+	padding: 5px;
+	font-family: 'Courier New', monospace;
+}
+
+#header {
+	text-align: center;
+}
+
+input[type="number"],
+input[type="submit"] {
+	background-color: #EC4D58;
+	border: none;
+	color: white;
+	padding: 5px 5px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="checkbox"] {
+	accent-color: #EC4D58;
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+}
+
+table {
+	border-collapse: collapse;
+	-webkit-user-select: none;
+	/* Safari */
+	-ms-user-select: none;
+	/* IE 10 and IE 11 */
+	user-select: none;
+	/* Standard syntax */
+}
+
+h1 {
+	text-align: center;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	text-align: center;
+	font-weight: 800;
+	font-size: 36px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000000;
+}
+
+td {
+	height: 90px;
+	width: 90px;
+}
+
+td:hover {
+	filter: brightness(85%);
+	cursor: pointer;
+}
+
+.noHover:hover {
+	filter: none;
+	cursor: auto;
+}
+
+.border {
+	height: 1px;
+	width: 1px;
+}
