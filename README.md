@@ -1,5 +1,8 @@
 # JavaScript project: 2022-2023
 
+- [Het spel zelf](https://nineteendo.github.io/rush_hour/code)
+- [De stop watch](https://nineteendo.github.io/rush_hour/Stopwatch-test)
+
 In dit project implementeer je het spel Rush Hour in Javascript.
 Dit project wordt ingediend via GitLab.
 Tijdens de verdediging kijken we naar de recentst gepushte commit versie vóór het verstrijken van de deadline.
