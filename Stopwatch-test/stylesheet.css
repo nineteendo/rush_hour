@@ -39,20 +39,38 @@ margin-top: 50px;
 }
 
 #start {
-	background-color: rgb(77, 158, 77);
-}
-
-#start:hover {
 	background-color: green;
 }
 
+#start:hover {
+	background-color: lightgreen;
+}
+
 #stop {
-	background-color: rgb(106, 168, 207);
+	background-color: blue;
 
 }
 
 #stop:hover {
-	background-color: rgb(12, 120, 187);
+	background-color: lightblue;
+}
+
+#reset {
+	background-color: red;
+
+}
+
+#reset:hover {
+	background-color: pink;
+}
+
+#turbo {
+	background-color: grey;
+
+}
+
+#turbo:hover {
+	background-color: lightgrey;
 }
 
 /* Media Queiries */
